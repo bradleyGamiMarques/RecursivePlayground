@@ -1,0 +1,33 @@
+{
+  "name": "recursiveplayground",
+  "version": "1.0.0",
+  "description": "Solutions for common recursive algorithm problems.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradleyGamiMarques/RecursivePlayground.git"
+  },
+  "keywords": [
+    "Algorithms",
+    "Recursion",
+    "Power",
+    "Fibbonacci",
+    "Product",
+    "Sum"
+  ],
+
+  "author": "Bradley Marques",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bradleyGamiMarques/RecursivePlayground/issues"
+  },
+  "homepage": "https://github.com/bradleyGamiMarques/RecursivePlayground#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
