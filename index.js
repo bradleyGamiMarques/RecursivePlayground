@@ -1,0 +1,10 @@
+const {factorial} = require('./factorial/factorial');
+const {fib} = require('./fibonacci/fibonacci');
+const {power} = require('./power/power');
+const {productOfArray} = require('./array_product/array_product');
+const {recursiveRange} = require('./recursive_range/recursive_range');
+console.log(factorial(5));
+console.log(fib(5));
+console.log(power(2, 5));
+console.log(productOfArray([1, 2, 3, 4, 5]));
+console.log(recursiveRange(5));
