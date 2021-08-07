@@ -1,8 +1,11 @@
+const {binarySearch} = require('./binary_search/binary_search');
 const {factorial} = require('./factorial/factorial');
 const {fib} = require('./fibonacci/fibonacci');
 const {power} = require('./power/power');
 const {productOfArray} = require('./array_product/array_product');
 const {recursiveRange} = require('./recursive_range/recursive_range');
+const array = Array.from(Array(1000).keys());
+console.log(binarySearch(array, 0, array.length - 1, 747 ));
 console.log(factorial(5));
 console.log(fib(5));
 console.log(power(2, 5));
